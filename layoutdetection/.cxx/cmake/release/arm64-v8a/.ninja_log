@@ -1,0 +1,8 @@
+# ninja log v5
+2	734	1641856454	libs/svm/CMakeFiles/svm.dir/svm.cpp.o	7ac7839b63e0a31f
+1	780	1641856454	libs/feature/CMakeFiles/feature.dir/feature.cpp.o	1d78373f777478d8
+780	790	1641856454	libs/feature/libfeature.a	a2d9e208bd75d314
+3	851	1641856454	libs/svm/CMakeFiles/svm.dir/svm_util.cpp.o	95eb335014bc896b
+0	855	1641856454	CMakeFiles/layoutdetection.dir/native-lib.cpp.o	a75a8e4c8a94d2e1
+851	864	1641856454	libs/svm/libsvm.a	6d447ce8f5bf18a6
+864	1107	1641856454	/home/liangkezhao/workspace/layoutDetection/layoutdetection/build/intermediates/cmake/release/obj/arm64-v8a/liblayoutdetection.so	c14ce07cd18a1ede

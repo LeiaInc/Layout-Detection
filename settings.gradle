@@ -1,0 +1,3 @@
+include ':layoutdetection'
+include ':app'
+rootProject.name = "layoutDetection"

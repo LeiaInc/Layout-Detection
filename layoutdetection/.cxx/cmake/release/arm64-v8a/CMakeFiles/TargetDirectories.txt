@@ -1,0 +1,11 @@
+/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/release/arm64-v8a/CMakeFiles/layoutdetection.dir
+/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/release/arm64-v8a/libs/CMakeFiles/rebuild_cache.dir
+/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/release/arm64-v8a/libs/CMakeFiles/edit_cache.dir
+/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/release/arm64-v8a/libs/feature/CMakeFiles/rebuild_cache.dir
+/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/release/arm64-v8a/libs/feature/CMakeFiles/edit_cache.dir
+/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/release/arm64-v8a/libs/feature/CMakeFiles/feature.dir
+/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/release/arm64-v8a/libs/svm/CMakeFiles/rebuild_cache.dir
+/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/release/arm64-v8a/libs/svm/CMakeFiles/edit_cache.dir
+/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/release/arm64-v8a/libs/svm/CMakeFiles/svm.dir

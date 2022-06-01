@@ -1,0 +1,433 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp",
+  "buildDirectory": "/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/debug/arm64-v8a",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DCMAKE_CXX_FLAGS\u003d-std\u003dc++17",
+    "-DCMAKE_FIND_ROOT_PATH\u003d/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/debug/prefab/arm64-v8a/prefab",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/home/liangkezhao/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "-DANDROID_ABI\u003darm64-v8a",
+    "-DANDROID_NDK\u003d/home/liangkezhao/Android/Sdk/ndk/21.1.6352462",
+    "-DANDROID_PLATFORM\u003dandroid-27",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a",
+    "-DCMAKE_ANDROID_NDK\u003d/home/liangkezhao/Android/Sdk/ndk/21.1.6352462",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/liangkezhao/workspace/layoutDetection/layoutdetection/build/intermediates/cmake/debug/obj/arm64-v8a",
+    "-DCMAKE_MAKE_PROGRAM\u003d/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_SYSTEM_VERSION\u003d27"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: /home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: /home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+CMAKE SERVER: Check for working C compiler: /home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":33,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: /home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: /home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+CMAKE SERVER: Check for working C compiler: /home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compiler ABI info","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compiler ABI info
+CMAKE SERVER: Detecting C compiler ABI info
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":65,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compiler ABI info - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compiler ABI info - done
+CMAKE SERVER: Detecting C compiler ABI info - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compile features","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compile features
+CMAKE SERVER: Detecting C compile features
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":96,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":126,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":155,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compile features - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compile features - done
+CMAKE SERVER: Detecting C compile features - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working CXX compiler: /home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working CXX compiler: /home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+CMAKE SERVER: Check for working CXX compiler: /home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":184,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working CXX compiler: /home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working CXX compiler: /home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+CMAKE SERVER: Check for working CXX compiler: /home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compiler ABI info","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compiler ABI info
+CMAKE SERVER: Detecting CXX compiler ABI info
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":211,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compiler ABI info - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compiler ABI info - done
+CMAKE SERVER: Detecting CXX compiler ABI info - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compile features","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compile features
+CMAKE SERVER: Detecting CXX compile features
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":237,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":262,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":287,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":311,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compile features - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compile features - done
+CMAKE SERVER: Detecting CXX compile features - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Found OpenCV: /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk (found version \"4.5.0\") ","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Found OpenCV: /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk (found version "4.5.0") 
+CMAKE SERVER: Found OpenCV: /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk (found version "4.5.0") 
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":334,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":356,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":377,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":924,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":950,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":974,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring done
+CMAKE SERVER: Configuring done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"compute"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":250,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":500,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":750,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","message":"Generating done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Generating done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"cmakeInputs"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake","/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","/home/liangkezhao/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake","/home/liangkezhao/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake","/home/liangkezhao/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake","../../../../OpenCV-android-sdk/sdk/native/jni/OpenCVConfig-version.cmake","../../../../OpenCV-android-sdk/sdk/native/jni/OpenCVConfig.cmake","../../../../OpenCV-android-sdk/sdk/native/jni/abi-arm64-v8a/OpenCVConfig.cmake","../../../../OpenCV-android-sdk/sdk/native/jni/abi-arm64-v8a/OpenCVModules.cmake","../../../../OpenCV-android-sdk/sdk/native/jni/abi-arm64-v8a/OpenCVModules-release.cmake","libs/CMakeLists.txt","libs/feature/CMakeLists.txt","libs/svm/CMakeLists.txt"]},{"isCMake":false,"isTemporary":true,"sources":["../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake","../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake","../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake","../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.c","../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.c","../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.c","../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake","../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx","../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx","../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx","../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx","../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"codemodel"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/debug/arm64-v8a/libs/feature","name":"feature","sourceDirectory":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/feature","targets":[{"artifacts":["/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/debug/arm64-v8a/libs/feature/libfeature.a"],"buildDirectory":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/debug/arm64-v8a/libs/feature","fileGroups":[{"isGenerated":false,"sources":["include/feature.h"]},{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -O0 -fno-limit-debug-info  -fPIC   -std=gnu++1z","includePath":[{"path":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/feature/include"},{"path":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/feature"},{"isSystem":true,"path":"/home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/jni/include"}],"isGenerated":false,"language":"CXX","sources":["feature.cpp"]}],"fullName":"libfeature.a","linkerLanguage":"CXX","name":"feature","sourceDirectory":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/feature","sysroot":"/home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"STATIC_LIBRARY"}]},{"buildDirectory":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/debug/arm64-v8a","name":"layoutdetection","sourceDirectory":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp","targets":[{"artifacts":["/home/liangkezhao/workspace/layoutDetection/layoutdetection/build/intermediates/cmake/debug/obj/arm64-v8a/liblayoutdetection.so"],"buildDirectory":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/debug/arm64-v8a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -O0 -fno-limit-debug-info  -fPIC   -std=gnu++1z","defines":["layoutdetection_EXPORTS"],"includePath":[{"path":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/layoutdetection"},{"isSystem":true,"path":"/home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/jni/include"},{"path":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/feature/include"},{"path":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/svm/include"}],"isGenerated":false,"language":"CXX","sources":["native-lib.cpp"]}],"fullName":"liblayoutdetection.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-ljnigraphics /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_calib3d.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_core.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_dnn.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_features2d.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_flann.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_gapi.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_highgui.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_imgcodecs.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_imgproc.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_ml.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_objdetect.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_photo.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_stitching.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_video.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_videoio.a libs/feature/libfeature.a libs/svm/libsvm.a /home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/27/liblog.so /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibprotobuf.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libade.a -landroid -llog -lmediandk /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libquirc.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_calib3d.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_features2d.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_flann.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_imgcodecs.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibjpeg-turbo.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibwebp.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibpng.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibtiff.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibopenjp2.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libIlmImf.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_imgproc.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_core.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libtbb.a -lc -lz /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libcpufeatures.a /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libittnotify.a -ldl -lm -llog /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libtegra_hal.a -latomic -lm","linkerLanguage":"CXX","name":"layoutdetection","sourceDirectory":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp","sysroot":"/home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/debug/arm64-v8a/libs/feature/libfeature.a"],"buildDirectory":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/debug/arm64-v8a/libs/feature","fileGroups":[{"isGenerated":false,"sources":["include/feature.h"]},{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -O0 -fno-limit-debug-info  -fPIC   -std=gnu++1z","includePath":[{"path":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/feature/include"},{"path":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/feature"},{"isSystem":true,"path":"/home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/jni/include"}],"isGenerated":false,"language":"CXX","sources":["feature.cpp"]}],"fullName":"libfeature.a","linkerLanguage":"CXX","name":"feature","sourceDirectory":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/feature","sysroot":"/home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"STATIC_LIBRARY"},{"artifacts":["/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/debug/arm64-v8a/libs/svm/libsvm.a"],"buildDirectory":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/debug/arm64-v8a/libs/svm","fileGroups":[{"isGenerated":false,"sources":["include/svm.h","include/svm_util.h"]},{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -O0 -fno-limit-debug-info  -fPIC   -std=gnu++1z","includePath":[{"path":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/svm/include"},{"path":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/svm"}],"isGenerated":false,"language":"CXX","sources":["svm.cpp","svm_util.cpp"]}],"fullName":"libsvm.a","linkerLanguage":"CXX","name":"svm","sourceDirectory":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/svm","sysroot":"/home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"STATIC_LIBRARY"}]},{"buildDirectory":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/debug/arm64-v8a/libs/svm","name":"svm","sourceDirectory":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/svm","targets":[{"artifacts":["/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/debug/arm64-v8a/libs/svm/libsvm.a"],"buildDirectory":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/debug/arm64-v8a/libs/svm","fileGroups":[{"isGenerated":false,"sources":["include/svm.h","include/svm_util.h"]},{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -O0 -fno-limit-debug-info  -fPIC   -std=gnu++1z","includePath":[{"path":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/svm/include"},{"path":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/svm"}],"isGenerated":false,"language":"CXX","sources":["svm.cpp","svm_util.cpp"]}],"fullName":"libsvm.a","linkerLanguage":"CXX","name":"svm","sourceDirectory":"/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/svm","sysroot":"/home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"STATIC_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+

@@ -1,0 +1,7 @@
+Executable : /home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/debug/arm64-v8a
+layoutdetection
+jvmArgs : 
+

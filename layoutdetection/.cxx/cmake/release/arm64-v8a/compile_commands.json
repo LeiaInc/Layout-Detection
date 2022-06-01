@@ -1,0 +1,25 @@
+[
+{
+  "directory": "/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/release/arm64-v8a",
+  "command": "/home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android27 --gcc-toolchain=/home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dlayoutdetection_EXPORTS -I/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/layoutdetection -isystem /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/jni/include -I/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/feature/include -I/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/svm/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -O2 -DNDEBUG  -fPIC   -std=gnu++1z -o CMakeFiles/layoutdetection.dir/native-lib.cpp.o -c /home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/native-lib.cpp",
+  "file": "/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/native-lib.cpp"
+},
+
+{
+  "directory": "/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/release/arm64-v8a",
+  "command": "/home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android27 --gcc-toolchain=/home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/feature/include -I/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/feature -isystem /home/liangkezhao/workspace/layoutDetection/OpenCV-android-sdk/sdk/native/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -O2 -DNDEBUG  -fPIC   -std=gnu++1z -o libs/feature/CMakeFiles/feature.dir/feature.cpp.o -c /home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/feature/feature.cpp",
+  "file": "/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/feature/feature.cpp"
+},
+
+{
+  "directory": "/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/release/arm64-v8a",
+  "command": "/home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android27 --gcc-toolchain=/home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/svm/include -I/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/svm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -O2 -DNDEBUG  -fPIC   -std=gnu++1z -o libs/svm/CMakeFiles/svm.dir/svm.cpp.o -c /home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/svm/svm.cpp",
+  "file": "/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/svm/svm.cpp"
+},
+
+{
+  "directory": "/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/release/arm64-v8a",
+  "command": "/home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android27 --gcc-toolchain=/home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/liangkezhao/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/svm/include -I/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/svm  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -O2 -DNDEBUG  -fPIC   -std=gnu++1z -o libs/svm/CMakeFiles/svm.dir/svm_util.cpp.o -c /home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/svm/svm_util.cpp",
+  "file": "/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp/libs/svm/svm_util.cpp"
+}
+]

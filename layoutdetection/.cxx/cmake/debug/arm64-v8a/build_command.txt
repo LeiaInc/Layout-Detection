@@ -1,0 +1,22 @@
+                Executable : /home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
+arguments : 
+-H/home/liangkezhao/workspace/layoutDetection/layoutdetection/src/main/cpp
+-DCMAKE_CXX_FLAGS=-std=c++17
+-DCMAKE_FIND_ROOT_PATH=/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/debug/prefab/arm64-v8a/prefab
+-DCMAKE_BUILD_TYPE=Debug
+-DCMAKE_TOOLCHAIN_FILE=/home/liangkezhao/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake
+-DANDROID_ABI=arm64-v8a
+-DANDROID_NDK=/home/liangkezhao/Android/Sdk/ndk/21.1.6352462
+-DANDROID_PLATFORM=android-27
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DCMAKE_ANDROID_NDK=/home/liangkezhao/Android/Sdk/ndk/21.1.6352462
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/liangkezhao/workspace/layoutDetection/layoutdetection/build/intermediates/cmake/debug/obj/arm64-v8a
+-DCMAKE_MAKE_PROGRAM=/home/liangkezhao/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=27
+-B/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/debug/arm64-v8a
+-GNinja
+jvmArgs : 
+
+Build command args:

@@ -1,0 +1,71 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:android)
+
+
+# From http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/196118
+def load_properties(properties_filename)
+  properties = {}
+  File.open(properties_filename, 'r') do |properties_file|
+    properties_file.read.each_line do |line|
+      line.strip!
+      if (line[0] != ?# and line[0] != ?=)
+        i = line.index('=')
+        if (i)
+          properties[line[0..i - 1].strip] = line[i + 1..-1].strip
+        else
+          properties[line] = ''
+        end
+      end
+    end
+  end
+  properties
+end
+
+
+platform :android do
+  desc "Tag, push, build, and upload to Artifactory (public release)."
+  lane :deployrelease do
+
+    ensure_git_status_clean()
+
+    versionProps = load_properties("../version.properties")
+    versionName = versionProps['versionName']
+
+    # Build the AAR and POM manifest.
+    gradle(task: "clean :layoutdetection:assembleRelease generatePomFileForAarPublication")
+
+    begin
+      add_git_tag(
+        tag: "v"+versionName
+      )
+    rescue
+      raise "Duplicate tag! (You may have forgotten to update the version.properties file)."
+    end
+    push_to_git_remote()
+
+    # Move artifacts into a new "publish" directory.
+    FileUtils.rm_rf('publish')
+    Dir.mkdir('publish')
+    FileUtils.copy('../layoutdetection/build/outputs/aar/layoutdetection-release.aar', 'publish/layoutdetection-%s.aar' % versionName)
+    FileUtils.copy('../layoutdetection/build/publications/aar/pom-default.xml', 'publish/layoutdetection-%s.pom' % versionName)
+
+    sh("curl -v -X PUT --user leiaprivate:102852a --upload-file publish/layoutdetection-%s.aar https://leiainc.jfrog.io/leiainc/gradle-release-local/com/leiainc/layoutdetection/%s/" % [versionName, versionName])
+    sh("curl -v -X PUT --user leiaprivate:102852a --upload-file publish/layoutdetection-%s.pom https://leiainc.jfrog.io/leiainc/gradle-release-local/com/leiainc/layoutdetection/%s/" % [versionName, versionName])
+
+  end
+
+end

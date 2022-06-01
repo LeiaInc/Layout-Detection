@@ -1,0 +1,8 @@
+ninja: Entering directory `/home/liangkezhao/workspace/layoutDetection/layoutdetection/.cxx/cmake/release/arm64-v8a'
+[1/7] Building CXX object libs/svm/CMakeFiles/svm.dir/svm.cpp.o
+[2/7] Building CXX object libs/feature/CMakeFiles/feature.dir/feature.cpp.o
+[3/7] Linking CXX static library libs/feature/libfeature.a
+[4/7] Building CXX object libs/svm/CMakeFiles/svm.dir/svm_util.cpp.o
+[5/7] Building CXX object CMakeFiles/layoutdetection.dir/native-lib.cpp.o
+[6/7] Linking CXX static library libs/svm/libsvm.a
+[7/7] Linking CXX shared library /home/liangkezhao/workspace/layoutDetection/layoutdetection/build/intermediates/cmake/release/obj/arm64-v8a/liblayoutdetection.so

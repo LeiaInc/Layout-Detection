@@ -1,0 +1,32 @@
+// This script packages the library for release to Artifactory.
+
+apply plugin: 'maven-publish'
+
+// Declares what we should publish (aar and pom metadata).
+publishing {
+    publications {
+        aar(MavenPublication) {
+            groupId 'com.leiainc'
+            version = project.ext.versionName
+            artifactId project.getName()
+
+            // Tell maven to prepare the generated "*.aar" file for publishing
+            artifact("$buildDir/outputs/aar/${project.getName()}-release.aar")
+
+            // The publication doesn't know about our dependencies, so we have to manually add them to the pom.
+            // https://stackoverflow.com/a/24764713/1567183
+            pom.withXml {
+                def dependenciesNode = asNode().appendNode('dependencies')
+
+                //Iterate over the compile dependencies (we don't want the test ones), adding a <dependency> node for each
+                configurations.implementation.allDependencies.each {
+                    def dependencyNode = dependenciesNode.appendNode('dependency')
+                    dependencyNode.appendNode('groupId', it.group)
+                    dependencyNode.appendNode('artifactId', it.name)
+                    dependencyNode.appendNode('version', it.version)
+                    dependencyNode.appendNode('scope', 'compile')
+                }
+            }
+        }
+    }
+}
